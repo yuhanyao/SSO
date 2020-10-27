@@ -1,4 +1,0 @@
-sso\server\servlet\LoginServlet.class
-sso\server\servlet\TicketServlet.class
-sso\server\filter\SSOServerFilter.class
-sso\server\JVMCache.class
