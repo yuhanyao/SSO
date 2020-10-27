@@ -19,40 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a842c5c-2938-4303-8fe8-31fc22a5edb3" name="Default Changelist" comment="add servlet file">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/tmp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sso/server/JVMCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso-server2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssoserver.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sso/server/JVMCache.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sso/server/filter/SSOServerFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sso/server/servlet/LoginServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sso/server/servlet/TicketServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tomcat/conf/logging.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tomcat/conf/tomcat-users.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tomcat/conf/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-10-25" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-10-26" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/sso-server/org/apache/jsp/index_jsp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/sso-server/org/apache/jsp/index_jsp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/sso-server/org/apache/jsp/login_jsp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/sso-server/org/apache/jsp/login_jsp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/sso-server2/org/apache/jsp/index_jsp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/sso-server2/org/apache/jsp/index_jsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2020_10_26_16_56__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sso/server/filter/SSOServerFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sso/server/filter/SSOServerFilter.java" afterDir="false" />
-    </list>
+    <list default="true" id="1a842c5c-2938-4303-8fe8-31fc22a5edb3" name="Default Changelist" comment="all files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -136,7 +103,28 @@
       <option name="project" value="LOCAL" />
       <updated>1603716449843</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add webapp file">
+      <created>1603787510081</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603787510081</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add JVMcache">
+      <created>1603787653088</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603787653088</updated>
+    </task>
+    <task id="LOCAL-00007" summary="all files">
+      <created>1603787737806</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603787737806</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,7 +146,10 @@
     <MESSAGE value="delete useless file" />
     <MESSAGE value="add filter file" />
     <MESSAGE value="add servlet file" />
-    <option name="LAST_COMMIT_MESSAGE" value="add servlet file" />
+    <MESSAGE value="add webapp file" />
+    <MESSAGE value="add JVMcache" />
+    <MESSAGE value="all files" />
+    <option name="LAST_COMMIT_MESSAGE" value="all files" />
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1603786971209">
@@ -173,10 +164,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1603787085368" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1603716456242">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1603787743268">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1603716456242" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1603787743268" />
     <state x="404" y="52" key="git4idea.branch.GitSmartOperationDialog" timestamp="1603702565592">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
