@@ -41,42 +41,26 @@ public class SSOServerFilter implements Filter {
             }
         }
 
-        if (request.getRequestURI().contains("login")) {
-            filterChain.doFilter(request, response);
-            return;
-        }
-
-        // 服务为空 并且票据不为空
-        if (Objects.nonNull(service)&& null != ticket) {
-            // 放行
+        if (null == service && null != ticket) {
             filterChain.doFilter(servletRequest, servletResponse);
             return;
         }
 
-        // 用户名不为空
         if (null != username && !"".equals(username)) {
             long time = System.currentTimeMillis();
             String timeString = username + time;
             JVMCache.TICKET_AND_NAME.put(timeString, username);
             StringBuilder url = new StringBuilder();
-            if (service == null) {
-                filterChain.doFilter(servletRequest, servletResponse);
+            url.append(service);
+            if (0 <= service.indexOf("?")) {
+                url.append("&amp;");
             } else {
-                url.append(service);
-                if (0 <= service.indexOf("?")) {
-                    url.append("&");
-                } else {
-                    url.append("?");
-                }
-                url.append("ticket=").append(timeString);
-                // 获取用户名后重定向服务上的源地址
-                response.sendRedirect(url.toString());
+                url.append("?");
             }
+            url.append("ticket=").append(timeString);
+            response.sendRedirect(url.toString());
         } else {
-            if (service != null) {
-                request.setAttribute("service",service );
-            }
-            response.sendRedirect("/sso-server/login.jsp");
+            filterChain.doFilter(servletRequest, servletResponse);
         }
     }
 }
